@@ -1,0 +1,10 @@
+{
+  "name": "github.io",
+  "image": "mcr.microsoft.com/devcontainers/ruby:3.1-bookworm",
+  // "postCreateCommand": "./postCreate.sh",
+  // These settings are required to work with podman, remove if needed for Docker
+  "runArgs": ["--network=host", "--userns=keep-id:uid=1000,gid=1000"],
+  "containerUser": "vscode",
+  "updateRemoteUserUID": true,
+  "privileged": true
+}
