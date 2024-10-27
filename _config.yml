@@ -1,0 +1,22 @@
+title: Marcel Stolin
+# email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "https://marcel.to"
+github_username: mstolin
+
+theme: no-style-please
+theme_config:
+  appearance: "light"
+  back_home_text: "back"
+  date_format: "%Y-%m-%d"
+  show_description: true
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - postCreate.sh
